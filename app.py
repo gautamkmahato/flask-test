@@ -11,6 +11,6 @@ PORT = 5000
 def hello_world():
     return "<h1>Hello, World!</h1>"
 
-if __name__ == '__main__':
-    http_server = WSGIServer(('0.0.0.0', PORT), app)
-    http_server.serve_forever()
+# if __name__ == '__main__':
+#     http_server = WSGIServer(('0.0.0.0', PORT), app)
+#     http_server.serve_forever()
