@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-PORT = int(os.getenv('PORT', 5050))
+PORT = 5000
 
 @app.route("/")
 def hello_world():
